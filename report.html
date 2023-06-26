@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>web作品总结</title>
+  <meta name="renderer" content="webkit">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="./layui-v2.8.6/layui/css/layui.css" rel="stylesheet">
+</head>
+<body>
+<div class="layui-layout layui-layout-admin" >
+  <div class="layui-header" style="background-color: rgb(191, 187, 248);">
+    <div class="layui-logo layui-hide-xs layui-bg-black"  style="background-color: rgb(191, 187, 248);">个人作品总结</div>
+    <ul class="layui-nav layui-layout-right" style="background-color: lightgoldenrodyellow;">
+      <li class="layui-nav-item layui-hide layui-show-sm-inline-block">
+        <a href="https://i.csdn.net/#/user-center/profile?spm=1000.2115.3001.5111" style="color: black;font-size: 20px; ">
+          <img src="./images/兔子.png" class="layui-nav-img" style="width: 50px;
+          height: 50px; ">
+          诸诸小队
+        </a>
+        <dl class="layui-nav-child">
+          <dd><a href="/login.html">退出登录</a></dd>
+          <dd><a href="/main.html">返回</a></dd>
+        </dl>
+      </li>
+      <li class="layui-nav-item" lay-header-event="menuRight" lay-unselect>
+        <a href="javascript:;">
+          <i class="layui-icon layui-icon-more-vertical"></i>
+        </a>
+      </li>
+    </ul>
+  </div>
+  <div class="layui-side layui-bg-black"  style="background-color: rgb(191, 187, 248);">
+    <div class="layui-side-scroll">
+
+    </div>
+  </div>
+
+
+
+
+  <div class="layui-body" style="height: 1500px;">
+    <!-- 内容主体区域 -->
+    <div style="padding: 15px;">
+      <blockquote class="layui-elem-quote layui-text" style="font-size: 30px;">
+        web作品的主题为我自己的摄影作品集--采用纯CSS布局
+      </blockquote>
+      <div class="layui-card layui-panel">
+        <div class="layui-card-header">
+          
+            
+
+
+            <div class="layui-collapse" style="width: 1200px; margin-top: 50px;">
+                <div class="layui-colla-item">
+                  <div class="layui-colla-title" style="font-size: 25px;height: 60px;">开发过程</div>
+                  <div class="layui-colla-content" style="font-size: 20px;">
+                    <p>对于该作品主界面的制作我是采用纯CSS布局，先是确认了自己想表达的主题，
+                        想将自己拍摄的照片分成三个大类-人物篇、动物篇、景物篇
+                        表现出来，然后设计界面确认自己想要的布局形式，再收集需要用的
+                        素材，照片及一些图标；做完每个界面之后再运用超链接将它们连接起来<br>
+                        ps：这个报告形式运用的是layui的布局模板然后做了一些调整
+                    </p>
+                  </div>
+                </div>
+                <div class="layui-colla-item">
+                  <div class="layui-colla-title" style="font-size: 25px;height: 60px;">遇到的问题</div>
+                  <div class="layui-colla-content" style="font-size: 20px;">
+                    <p>
+                        1.调整一个板块的内容的时候，另一个板块也会跟着动<br>
+                        2.子级设置margin的时候，发现父级也跟着往下走<br>
+                        3.经常搞错css样式优先级的问题，行内设置的样式覆盖了类选择器里的样式
+                        
+                    </p>
+                  </div>
+                </div>
+                <div class="layui-colla-item">
+                  <div class="layui-colla-title"style="font-size: 25px;height: 60px;">解决问题的过程</div>
+                  <div class="layui-colla-content" style="font-size: 20px;">
+                    <ul>
+                      <li>1.第一个最后我把每一个小板块都用了一个div框起来，调整一个小板块的时候另一个板块的东西也不会变</li>
+                      <li>2.第二个发现是忘记了之前学过的给父级加overflow：hidden</li>
+                      <li>3.又返回去学了一遍html和css的课程</li>
+                    </ul>
+                  </div>
+                </div>
+                <div class="layui-colla-item">
+                  <div class="layui-colla-title" style="font-size: 25px;height: 60px;">哪些未解决</div>
+                  <div class="layui-colla-content" style="font-size: 20px;">
+                    <p>1.本意是在主页做一个自动轮播图，但是不知道是不是我学习网上的用法太复杂了的问题
+                        用上了很多js的内容之后整个页面图片就只出来了一半，然后打开页面之后也是加载了很久
+                        我认为太影响观看体验，便把它删除了，但是应该比较简便一点的方法<br>
+                        2.想做一个导航栏在旁边，但是我用上的时候点击某个元素直接跳转到那个界面了，导航栏就没了。
+                    </p>
+                  </div>
+                </div>
+              </div>
+
+
+
+        </div>
+        <div class="layui-card-body">
+        
+        </div>
+      </div>
+      <br><br>
+    </div>
+  </div>
+  <div class="layui-footer" style="background-color: skyblue; height: 100px; display: flex;" >
+    <!-- 底部固定区域 -->
+    <span style="font-size: 30px;color: white; margin-left: 500px; margin-top: 30px;">联系我们</span>
+    <img src="./images/个人图片.jpg" style="width: 100px;
+    height: 100px; margin-left: 100px;">
+  </div>
+</div>
+<script src="./layui-v2.8.6/layui/layui.js"></script>
+<script>
+//JS
+layui.use(['element', 'layer', 'util'], function(){
+  var element = layui.element;
+  var layer = layui.layer;
+  var util = layui.util;
+  var $ = layui.$;
+  //头部事件
+  util.event('lay-header-event', {
+    menuLeft: function(othis){ // 左侧菜单事件
+      layer.msg('展开左侧菜单的操作', {icon: 0});
+    },
+    menuRight: function(){  // 右侧菜单事件
+      layer.open({
+        type: 1
+        ,title: '更多'
+        ,content: '<div style="padding: 15px;">无</div>'
+        ,area: ['260px', '100%']
+        ,offset: 'rt' //右上角
+        ,anim: 'slideLeft'
+        ,shadeClose: true
+        ,scrollbar: false
+      });
+    }
+  });
+});
+</script>
+</body>
+</html>
